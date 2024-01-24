@@ -102,7 +102,7 @@ public class SAT extends SubsystemBase {
     }
     else if (controller.getBButton() && (controller.getRawAxis(0) < -0.5)) {
      /** AMP */
-     Pivot_pidController.setReference(Constants.SATConstants.PIVOT_SUB_POS, CANSparkMax.ControlType.kPosition);
+     Pivot_pidController.setReference(Constants.SATConstants.PIVOT_SUB_POS, CANSparkMax.ControlType.kPosition);}
     
     else if (controller.getBButton() && (controller.getRawAxis(0) < -0.5)) {
      /** AMP */
